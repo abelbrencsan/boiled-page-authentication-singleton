@@ -1,0 +1,21 @@
+/* Authentication singleton */
+main.authentication {
+	align-items: center;
+	background-color: $border-bg-color;
+	display: flex;
+	min-height: 100vh;
+	padding: $section-padding 0 ($section-padding - $element-margin) 0;
+
+	header.header {
+		margin-bottom: ($element-margin * 0.5);
+		text-align: center;
+
+		h1, h2, h3, h4, h5, h6 {
+			font-size: $heading-4-font-size;
+		}
+
+		p {
+			font-size: $subheading-4-font-size;
+		}
+	}
+}
