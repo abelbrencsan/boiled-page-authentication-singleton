@@ -18,4 +18,20 @@ main.authentication {
 			font-size: $subheading-4-font-size;
 		}
 	}
+
+	ul.authentication-link-list {
+
+		> li {
+
+			> a, > button {
+				color: inherit;
+				display: block;
+				text-decoration: none;
+
+				body.no-touch &:hover {
+					color: $link-color;
+				}
+			}
+		}
+	}
 }

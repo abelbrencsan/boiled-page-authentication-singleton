@@ -15,6 +15,7 @@ Place `_authentication.scss` file to `/assets/css/singletons` directory, and add
 Class name | Description | Example
 ---------- | ----------- | -------
 `authentication` | Applies authentication. | `<main class="authentication"></main>`
+`authentication` | Applies a list of links inside authentication. Use grid component for alignment. | `<ul class="authentication-link-list grid"></ul>`
 
 ### Examples
 
@@ -49,7 +50,7 @@ The following example shows a sign-in form as main content. Do not forget to add
           </div>
         </div>
       </form>
-      <ul class="grid grid--center grid--gutter grid--gutter--half grid--uniform">
+      <ul class="authentication-link-list grid grid--center grid--gutter grid--gutter--half grid--uniform">
         <li class="grid-col">
           <a href="#">Forgot password</a>
         </li>
