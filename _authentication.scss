@@ -19,9 +19,9 @@ main.authentication {
 		}
 	}
 
-	ul.authentication-link-list {
+	ul.authentication-link-list.grid {
 
-		> li {
+		> li.grid-col {
 
 			> a, > button {
 				color: inherit;
